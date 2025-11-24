@@ -1,0 +1,1973 @@
+[
+  {
+    "id": 1,
+    "question_en": "What is the form of government of the United States?",
+    "answers_en": [
+      "Republic",
+      "Constitution-based federal republic",
+      "Representative democracy"
+    ],
+    "question_ko": "미국 정부는 어떤 형태의 정부인가?",
+    "answers_ko": [
+      "공화국",
+      "헌법 기반 연방 공화국",
+      "대의민주주의"
+    ]
+  },
+  {
+    "id": 2,
+    "question_en": "What is the supreme law of the land? ",
+    "answers_en": [
+      "Constitution"
+    ],
+    "question_ko": "국가의 최고의 법은 무엇인가? ",
+    "answers_ko": [
+      "헌법"
+    ]
+  },
+  {
+    "id": 3,
+    "question_en": "Name one thing the U.S. Constitution does.",
+    "answers_en": [
+      "Forms the government",
+      "Defines powers of government",
+      "Defines the parts of government",
+      "Protects the rights of the people"
+    ],
+    "question_ko": "미국 헌법이 하는 일 중 하나가 무엇인지 말하라.",
+    "answers_ko": [
+      "정부를 구성함",
+      "정부의 권한을 정의함",
+      "정부의 부서들을 정의함",
+      "국민의 권리를 보호함"
+    ]
+  },
+  {
+    "id": 4,
+    "question_en": "The U.S. Constitution starts with the words “We the People.” What does “We the People” mean?",
+    "answers_en": [
+      "Self-government",
+      "Popular sovereignty",
+      "Consent of the governed",
+      "People should govern themselves",
+      "(Example of) social contract"
+    ],
+    "question_ko": "미국의 헌법은 \"우리 국민\" 이라는 단어들로 시작한다. \"우리 국민\"은 무엇을",
+    "answers_ko": [
+      "자치",
+      "대중의 주권",
+      "통치되는 이들의 동의",
+      "국민들은 스스로 통치해야함",
+      "사회 계약 (의 예)"
+    ]
+  },
+  {
+    "id": 5,
+    "question_en": "How are changes made to the U.S. Constitution?",
+    "answers_en": [
+      "Amendments",
+      "The amendment process"
+    ],
+    "question_ko": "미국 헌법은 어떻게 개정 되는가?",
+    "answers_ko": [
+      "미 헌법 수정 조항",
+      "헌법 수정 절차"
+    ]
+  },
+  {
+    "id": 6,
+    "question_en": "What does the Bill of Rights protect?",
+    "answers_en": [
+      "(The basic) rights of Americans",
+      "(The basic) rights of people living in the United States"
+    ],
+    "question_ko": "권리 장전은 무엇을 보호하는가?",
+    "answers_ko": [
+      "미국인들의 (기본적인) 권리",
+      "미국에 거주하는 사람들의 (기본적인) 권리"
+    ]
+  },
+  {
+    "id": 7,
+    "question_en": "How many amendments does the U.S. Constitution have? ",
+    "answers_en": [
+      "Twenty-seven ("
+    ],
+    "question_ko": "헌법에는 얼마나 많은 수정안이 있는가? *",
+    "answers_ko": [
+      "27 (27개 조항)"
+    ]
+  },
+  {
+    "id": 8,
+    "question_en": "Why is the Declaration of Independence important?",
+    "answers_en": [
+      "It says America is free from British control.",
+      "It says all people are created equal.",
+      "It identifies inherent rights.",
+      "It identifies individual freedoms."
+    ],
+    "question_ko": "독립 선언문은 왜 중요한가?",
+    "answers_ko": [
+      "미국은 영국의 통제에서 자유롭다고 선언한다.",
+      "모든 사람들이 평등하게 창조되었다고 선언한다.",
+      "생득권들이 무엇인지 정의한다.",
+      "개인의 자유를 식별한다."
+    ]
+  },
+  {
+    "id": 9,
+    "question_en": "What founding document said the American colonies were free from Britain?",
+    "answers_en": [
+      "Declaration of Independence"
+    ],
+    "question_ko": "무슨 건국 문서가 미국 식민지들이 영국으로부터 자유롭다 선언 했는가?",
+    "answers_ko": [
+      "독립 선언문"
+    ]
+  },
+  {
+    "id": 10,
+    "question_en": "Name two important ideas from the Declaration of Independence and the U.S. Constitution.",
+    "answers_en": [
+      "Equality",
+      "Liberty",
+      "Social contract",
+      "Natural rights",
+      "Limited government",
+      "Self-government"
+    ],
+    "question_ko": "독립 선언문과 미국 헌법에서 중요한 신념 두개를 말하라.",
+    "answers_ko": [
+      "평등",
+      "자유",
+      "사회 계약",
+      "생존권",
+      "제한된 정부",
+      "자치"
+    ]
+  },
+  {
+    "id": 11,
+    "question_en": "The words “Life, Liberty, and the pursuit of Happiness” are in what founding document?",
+    "answers_en": [
+      "Declaration of Independence"
+    ],
+    "question_ko": "무슨 건국 문서에 \"생명, 자유, 그리고 행복의 추구\" 라는 문구가 있는가?",
+    "answers_ko": [
+      "독립 선언문"
+    ]
+  },
+  {
+    "id": 12,
+    "question_en": "What is the economic system of the United States? ",
+    "answers_en": [
+      "Capitalism",
+      "Free market economy"
+    ],
+    "question_ko": "미국의 경제 시스템은 무엇인가? ",
+    "answers_ko": [
+      "자본주의",
+      "자유 시장 경제"
+    ]
+  },
+  {
+    "id": 13,
+    "question_en": "What is the rule of law?",
+    "answers_en": [
+      "Everyone must follow the law.",
+      "Leaders must obey the law.",
+      "Government must obey the law.",
+      "No one is above the law."
+    ],
+    "question_ko": "법치 주의란 무엇인가?",
+    "answers_ko": [
+      "모든 사람은 법을 따라야 한다.",
+      "지도자들은 법을 준수해야 한다.",
+      "정부는 법을 준수 해야 한다.",
+      "누구도 법 위에 있지 않다."
+    ]
+  },
+  {
+    "id": 14,
+    "question_en": "Many documents influenced the U.S. Constitution. Name one.",
+    "answers_en": [
+      "Declaration of Independence",
+      "Articles of Confederation",
+      "Federalist Papers",
+      "Anti-Federalist Papers",
+      "Virginia Declaration of Rights",
+      "Fundamental Orders of Connecticut",
+      "Mayflower Compact",
+      "Iroquois Great Law of Peace"
+    ],
+    "question_ko": "많은 문서들의 미국의 헌법에 영향을 미쳤다. 하나를 말해보아라.",
+    "answers_ko": [
+      "독립 선언문",
+      "연맹 조항",
+      "연방 주의자 논집",
+      "반-연방주의 논집",
+      "버지니아의 권리 선언문",
+      "코네티컷의 근본적 지시",
+      "메이플라워호 협약",
+      "이로쿼이 연맹 위대한 평화 법"
+    ]
+  },
+  {
+    "id": 15,
+    "question_en": "There are three branches of government. Why?",
+    "answers_en": [
+      "So one part does not become too powerful",
+      "Checks and balances",
+      "Separation of powers B: System of Government"
+    ],
+    "question_ko": "정부에는 세개의 부서들이 있다. 왜 그런가?",
+    "answers_ko": [
+      "한 부서가 너무 강해지지 않기 위해",
+      "견제와 균형",
+      "권력의 분리 B: System of Government B: 정부의 시스템"
+    ]
+  },
+  {
+    "id": 16,
+    "question_en": "Name the three branches of government.",
+    "answers_en": [
+      "Legislative, executive, and judicial",
+      "Congress, president, and the courts"
+    ],
+    "question_ko": "정부의 세 기관의 이름을 말하라.",
+    "answers_ko": [
+      "입법부, 행정부 및 사법부",
+      "의회, 대통령 및 법원"
+    ]
+  },
+  {
+    "id": 17,
+    "question_en": "The President of the United States is in charge of which branch of government?",
+    "answers_en": [
+      "Executive branch"
+    ],
+    "question_ko": "미국의 대통령은 어느 정부 기관을 책임지고 있는가?",
+    "answers_ko": [
+      "행정부"
+    ]
+  },
+  {
+    "id": 18,
+    "question_en": "What part of the federal government writes laws?",
+    "answers_en": [
+      "(U.S.) Congress",
+      "(U.S. or national) legislature",
+      "Legislative branch"
+    ],
+    "question_ko": "연방 정부의 무슨 부서가 법률을 작성하는가?",
+    "answers_ko": [
+      "(미국) 의회",
+      "(미국 또는 국가의) 입법부",
+      "입법부"
+    ]
+  },
+  {
+    "id": 19,
+    "question_en": "What are the two parts of the U.S. Congress?",
+    "answers_en": [
+      "Senate and House (of Representatives)"
+    ],
+    "question_ko": "미국 의회의 두 부문은 무엇인가?",
+    "answers_ko": [
+      "상원과 하원"
+    ]
+  },
+  {
+    "id": 20,
+    "question_en": "Name one power of the U.S. Congress. ",
+    "answers_en": [
+      "Writes laws",
+      "Declares war",
+      "Makes the federal budget"
+    ],
+    "question_ko": "미 의회의 권력들 중 하나를 말해보아라. ",
+    "answers_ko": [
+      "법안 작성",
+      "전쟁 선포",
+      "연방 예산 작성"
+    ]
+  },
+  {
+    "id": 21,
+    "question_en": "How many U.S. senators are there?",
+    "answers_en": [
+      "One hundred ("
+    ],
+    "question_ko": "미국의 상원 의원은 몇명인가?",
+    "answers_ko": [
+      "백명 ("
+    ]
+  },
+  {
+    "id": 22,
+    "question_en": "How long is a term for a U.S. senator?",
+    "answers_en": [
+      "Six ( years"
+    ],
+    "question_ko": "미국 상원 의원의 임기는 얼마나 되는가?",
+    "answers_ko": [
+      "육 년 ("
+    ]
+  },
+  {
+    "id": 23,
+    "question_en": "Who is one of your state’s U.S. senators now?",
+    "answers_en": [
+      "Answers will vary. [District of Columbia residents and residents of U.S. territories should answer that D.C. (or the territory where the applicant lives) has no U.S. senators.]"
+    ],
+    "question_ko": "당신이 사는 주의 미국 상원의원 중 한 사람은 누구인가?",
+    "answers_ko": [
+      "답은 해당 주에 따라 다름 [컬럼비아 특별구 주민들과 미국령 주민들은 D.C. (또는 신청인이 거주하는 미국령에는) 상원의원이 없다고 대답해야 함.] 7 시민권 시험 문제 및 답변 128가지(2025년"
+    ]
+  },
+  {
+    "id": 24,
+    "question_en": "How many voting members are in the House of Representatives?",
+    "answers_en": [
+      "Four hundred thirty-five ("
+    ],
+    "question_ko": "하원 의원은 몇 명인가?",
+    "answers_ko": [
+      "사백 마흔 다섯명 ("
+    ]
+  },
+  {
+    "id": 25,
+    "question_en": "How long is a term for a member of the House of Representatives?",
+    "answers_en": [
+      "Two ( years"
+    ],
+    "question_ko": "하원 의원의 임기는 얼마나 되는가?",
+    "answers_ko": [
+      "이년 ("
+    ]
+  },
+  {
+    "id": 26,
+    "question_en": "Why do U.S. representatives serve shorter terms than U.S. senators?",
+    "answers_en": [
+      "To more closely follow public opinion"
+    ],
+    "question_ko": "왜 미국의 하원 의원들이 상원 의원들보다 임기가 짧은가?",
+    "answers_ko": [
+      "여론을 더 밀접하게 따르기 위해"
+    ]
+  },
+  {
+    "id": 27,
+    "question_en": "How many senators does each state have?",
+    "answers_en": [
+      "Two ("
+    ],
+    "question_ko": "각 주에는 몇 명의 상원 의원이 있는가?",
+    "answers_ko": [
+      "두명 ("
+    ]
+  },
+  {
+    "id": 28,
+    "question_en": "Why does each state have two senators?",
+    "answers_en": [
+      "Equal representation (for small states)",
+      "The Great Compromise (Connecticut Compromise)"
+    ],
+    "question_ko": "왜 각 주에 두명의 상원 의원이 있는가?",
+    "answers_ko": [
+      "(작은 주들을 위한) 평등한 대의권",
+      "위대한 타협 (코네티컷 타협) "
+    ]
+  },
+  {
+    "id": 29,
+    "question_en": "Name your U.S. representative.",
+    "answers_en": [
+      "Answers will vary. [Residents of territories with nonvoting Delegates or Resident Commissioners may provide the name of that Delegate or Commissioner. Also acceptable is any statement that the territory has no (voting) representatives in Congress.]"
+    ],
+    "question_ko": "당신 지역의 미국 하원의원 이름을 말하라.",
+    "answers_ko": [
+      "답은 해당 주에 따라 다름 [비표결 대표 또는 주민 커미셔너 제도의 미국령 주민들은 대표나 주민 커미셔너 이름을 말하면 됨. 거주하는 미국령에는 국회에 (표결) 하원 의원이 없다고 답해도 됨.]"
+    ]
+  },
+  {
+    "id": 30,
+    "question_en": "What is the name of the Speaker of the House of Representatives now? ",
+    "answers_en": [
+      "Mike Johnson"
+    ],
+    "question_ko": "현재 미국 하원 의장의 이름은 무엇인가? *",
+    "answers_ko": [
+      "Mike Johnson"
+    ]
+  },
+  {
+    "id": 31,
+    "question_en": "Who does a U.S. senator represent?",
+    "answers_en": [
+      "Citizens of their state",
+      "People of their state"
+    ],
+    "question_ko": "미국의 상원의원은 누구를 대표하는가?",
+    "answers_ko": [
+      "해당 주의 주민들",
+      "해당 주의 사람들"
+    ]
+  },
+  {
+    "id": 32,
+    "question_en": "Who elects U.S. senators?",
+    "answers_en": [
+      "Citizens from their state"
+    ],
+    "question_ko": "누가 미국 상원 의원을 선출하는가?",
+    "answers_ko": [
+      "해당 주의 주민들 9 시민권 시험 문제 및 답변 128가지(2025년"
+    ]
+  },
+  {
+    "id": 33,
+    "question_en": "Who does a member of the House of Representatives represent?",
+    "answers_en": [
+      "Citizens in their (congressional) district",
+      "Citizens in their district",
+      "People from their (congressional) district",
+      "People in their district"
+    ],
+    "question_ko": "하원 의원은 누구를 대표하는가?",
+    "answers_ko": [
+      "자신의 (의회) 지구 시민",
+      "본인들의 지구 내 시민들",
+      "해당 지구(선거구)의 사람들",
+      "해당 지구의 사람들"
+    ]
+  },
+  {
+    "id": 34,
+    "question_en": "Who elects members of the House of Representatives?",
+    "answers_en": [
+      "Citizens from their (congressional) district"
+    ],
+    "question_ko": "누가 하원 의원들을 선출하는가?",
+    "answers_ko": [
+      "자신의 (의회) 지구의 시민들"
+    ]
+  },
+  {
+    "id": 35,
+    "question_en": "Some states have more representatives than other states. Why?",
+    "answers_en": [
+      "(Because of) the state’s population",
+      "(Because) they have more people",
+      "(Because) some states have more people"
+    ],
+    "question_ko": "어째서 어떤 주에는 다른 주보다 더 많은 하원의원이 있는가?",
+    "answers_ko": [
+      "주의 인구 때문에",
+      "더 많은 사람들이 살고 있기 때문에",
+      "어떤 주에는 사람이 더 많기 때문에"
+    ]
+  },
+  {
+    "id": 36,
+    "question_en": "The President of the United States is elected for how many years? ",
+    "answers_en": [
+      "Four ( years"
+    ],
+    "question_ko": "대통령은 몇 년 마다 선출되는가? ",
+    "answers_ko": [
+      "(4년)"
+    ]
+  },
+  {
+    "id": 37,
+    "question_en": "The President of the United States can serve only two terms. Why?",
+    "answers_en": [
+      "(Because of) the 22nd Amendment",
+      "To keep the president from becoming too powerful"
+    ],
+    "question_ko": "미국의 대통령은 두 번만 임기를 할 수 있다. 왜 그런가?",
+    "answers_ko": [
+      "제 22대 미국 헌법 수정 조항 (때문에)",
+      "대통령이 너무 강력 해지는 것 부터 막기 위해"
+    ]
+  },
+  {
+    "id": 38,
+    "question_en": "What is the name of the President of the United States now? ",
+    "answers_en": [
+      "Donald John Trump"
+    ],
+    "question_ko": "현재 미국 대통령의 이름은 무엇인가?",
+    "answers_ko": [
+      "Donald John Trump"
+    ]
+  },
+  {
+    "id": 39,
+    "question_en": "What is the name of the Vice President of the United States now? ",
+    "answers_en": [
+      "The Vice President of the United States is JD Vance."
+    ],
+    "question_ko": "현재 미국 부통령의 이름은 무엇인가? ",
+    "answers_ko": [
+      "The Vice President of the United States is JD Vance."
+    ]
+  },
+  {
+    "id": 40,
+    "question_en": "If the president can no longer serve, who becomes president?",
+    "answers_en": [
+      "The Vice President (of the United States)"
+    ],
+    "question_ko": "대통령이 더 이상 임무를 수행할 수 없다면, 누가 대통령이 되는가?",
+    "answers_ko": [
+      "부통령"
+    ]
+  },
+  {
+    "id": 41,
+    "question_en": "Name one power of the president.",
+    "answers_en": [
+      "Signs bills into law",
+      "Vetoes bills",
+      "Enforces laws",
+      "Commander in Chief (of the military)",
+      "Chief diplomat",
+      "Appoints federal judges"
+    ],
+    "question_ko": "대통령의 권한 중 하나를 말해 보아라.",
+    "answers_ko": [
+      "법안을 법률로 서명",
+      "법안 거부",
+      "법을 집행",
+      "(군대의) 총 사령관",
+      "최고위자 외교관",
+      "연방 판사를 임명합니다"
+    ]
+  },
+  {
+    "id": 42,
+    "question_en": "Who is Commander in Chief of the U.S. military?",
+    "answers_en": [
+      "The President (of the United States)"
+    ],
+    "question_ko": "군의 최고 사령관은 누구인가?",
+    "answers_ko": [
+      "대통령"
+    ]
+  },
+  {
+    "id": 43,
+    "question_en": "Who signs bills to become laws?",
+    "answers_en": [
+      "The President (of the United States)"
+    ],
+    "question_ko": "누가 법안에 서명하여 법률로 정하는가?",
+    "answers_ko": [
+      "대통령"
+    ]
+  },
+  {
+    "id": 44,
+    "question_en": "Who vetoes bills? ",
+    "answers_en": [
+      "The President (of the United States)"
+    ],
+    "question_ko": "누가 법안에 거부권을 행사하는가? ",
+    "answers_ko": [
+      "대통령"
+    ]
+  },
+  {
+    "id": 45,
+    "question_en": "Who appoints federal judges?",
+    "answers_en": [
+      "The President (of the United States)"
+    ],
+    "question_ko": "누가 연방 판사들을 임명하는가?",
+    "answers_ko": [
+      "(미국의) 대통령"
+    ]
+  },
+  {
+    "id": 46,
+    "question_en": "The executive branch has many parts. Name one.",
+    "answers_en": [
+      "President (of the United States)",
+      "Cabinet",
+      "Federal departments and agencies"
+    ],
+    "question_ko": "행정부에는 많은 부서들이 있다. 하나를 말해보아라.",
+    "answers_ko": [
+      "(미국의) 대통령",
+      "정부의 내각",
+      "연방 부서들 및 기관들"
+    ]
+  },
+  {
+    "id": 47,
+    "question_en": "What does the President’s Cabinet do?",
+    "answers_en": [
+      "Advises the President (of the United States)"
+    ],
+    "question_ko": "대통령의 각료들은 무엇을 하는가?",
+    "answers_ko": [
+      "대통령을 보조하여 조언한다"
+    ]
+  },
+  {
+    "id": 48,
+    "question_en": "What are two Cabinet-level positions?",
+    "answers_en": [
+      "Attorney General",
+      "Secretary of Agriculture",
+      "Secretary of Commerce",
+      "Secretary of Education",
+      "Secretary of Energy",
+      "Secretary of Health and Human Services",
+      "Secretary of Homeland Security",
+      "Secretary of Housing and Urban Development",
+      "Secretary of the Interior",
+      "Secretary of Labor",
+      "Secretary of State",
+      "Secretary of Transportation",
+      "Secretary of the Treasury",
+      "Secretary of Veterans Affairs",
+      "Secretary of War (Defense)",
+      "Vice-President",
+      "Administrator of the Environmental Protection Agency",
+      "Administrator of the Small Business Administration",
+      "Director of the Central Intelligence Agency",
+      "Director of the Office of Management and Budget",
+      "Director of National Intelligence",
+      "United States Trade Representative"
+    ],
+    "question_ko": "각료급 직책 중 두 가지는 무엇인가?",
+    "answers_ko": [
+      "농무부 장관",
+      "상공부 장관",
+      "국방부 장관",
+      "교육부 장관",
+      "에너지부 장관",
+      "보건복지부 장관",
+      "국토안보부 장관",
+      "주택도시개발부 장관",
+      "내무부 장관",
+      "노동부 장관",
+      "국무부 장관",
+      "교통부 장관",
+      "재무부 장관",
+      "보훈부 장관",
+      "법무부 장관",
+      "부통령 ",
+      "환경보호청 청장",
+      "중소기업청 청장",
+      "중앙정보국 국장",
+      "행정 관리 예산국 국장",
+      "국가정보국 국장",
+      "미국 무역대표부"
+    ]
+  },
+  {
+    "id": 49,
+    "question_en": "Why is the Electoral College important?",
+    "answers_en": [
+      "It decides who is elected president.",
+      "It provides a compromise between the popular election of the president and congressional selection."
+    ],
+    "question_ko": "선거 인단은 왜 중요한가?",
+    "answers_ko": [
+      "누가 대통령으로 선출되는지 결정한다.",
+      "대통령의 대중 선거와 의회 선출 사이의 타협을 제공한다."
+    ]
+  },
+  {
+    "id": 50,
+    "question_en": "What is one part of the judicial branch?",
+    "answers_en": [
+      "Supreme Court",
+      "Federal Courts"
+    ],
+    "question_ko": "사법부의 한 부서는 무엇인가?",
+    "answers_ko": [
+      "대법원",
+      "연방 법원"
+    ]
+  },
+  {
+    "id": 51,
+    "question_en": "What does the judicial branch do?",
+    "answers_en": [
+      "Reviews laws",
+      "Explains laws",
+      "Resolves disputes (disagreements) about the law",
+      "Decides if a law goes against the (U.S.) Constitution"
+    ],
+    "question_ko": "사법부는 무엇을 하는가?",
+    "answers_ko": [
+      "법률의 재검토",
+      "법률의 해석",
+      "법에 대해 분쟁이나 다툼의 해결",
+      "법률이 헌법에 위배되는지를 판단"
+    ]
+  },
+  {
+    "id": 52,
+    "question_en": "What is the highest court in the United States? ",
+    "answers_en": [
+      "Supreme Court"
+    ],
+    "question_ko": "미국의 최고 법원은 무엇인가? ",
+    "answers_ko": [
+      "연방 대법원"
+    ]
+  },
+  {
+    "id": 53,
+    "question_en": "How many seats are on the Supreme Court?",
+    "answers_en": [
+      "Nine "
+    ],
+    "question_ko": "대법원에는 몇 자리가 있나요?",
+    "answers_ko": [
+      "아홉 "
+    ]
+  },
+  {
+    "id": 54,
+    "question_en": "How many Supreme Court justices are usually needed to decide a case?",
+    "answers_en": [
+      "Five "
+    ],
+    "question_ko": "판결을 내리기 위해는 보통 몇 명의 대법관들이 필요한가?",
+    "answers_ko": [
+      "다섯명 "
+    ]
+  },
+  {
+    "id": 55,
+    "question_en": "How long do Supreme Court justices serve?",
+    "answers_en": [
+      "(For) life",
+      "Lifetime appointment",
+      "(Until) retirement"
+    ],
+    "question_ko": "대법관들은 얼마나 오래동안 이 직책을 맡는가?",
+    "answers_ko": [
+      "평생",
+      "평생 임명",
+      "퇴직 (까지) 16 시민권 시험 문제 및 답변 128가지(2025년"
+    ]
+  },
+  {
+    "id": 56,
+    "question_en": "Supreme Court justices serve for life. Why?",
+    "answers_en": [
+      "To be independent (of politics)",
+      "To limit outside (political) influence"
+    ],
+    "question_ko": "대법관은 평생 그 직책을 맡는다. 왜 그런가?",
+    "answers_ko": [
+      "(경찰으로부터) 독립적이기 위해",
+      "외부 (정치의) 영향력을 제한하기 위해"
+    ]
+  },
+  {
+    "id": 57,
+    "question_en": "Who is the Chief Justice of the United States now?",
+    "answers_en": [
+      "Visit uscis.gov/citizenship/testupdates for the name of the Chief Justice of the United States."
+    ],
+    "question_ko": "미국의 대법원장은 누구인가?",
+    "answers_ko": [
+      "uscis.gov/citizenship/testupdates 를 방문하여 미국 연방 대법원장의 이름을 알아보십시오."
+    ]
+  },
+  {
+    "id": 58,
+    "question_en": "Name one power that is only for the federal government.",
+    "answers_en": [
+      "Print paper money",
+      "Mint coins",
+      "Declare war",
+      "Create an army",
+      "Make treaties",
+      "Set foreign policy"
+    ],
+    "question_ko": "연방 정부만을 위한 권한 중 하나를 말해보아라.",
+    "answers_ko": [
+      "지폐 인쇄",
+      "화폐 주조",
+      "전쟁 선포",
+      "군대를 만듬",
+      "조약 체결",
+      "외교 정책 설정 17 시민권 시험 문제 및 답변 128가지(2025년"
+    ]
+  },
+  {
+    "id": 59,
+    "question_en": "Name one power that is only for the states.",
+    "answers_en": [
+      "Provide schooling and education",
+      "Provide protection (police)",
+      "Provide safety (fire departments)",
+      "Give a driver’s license",
+      "Approve zoning and land use"
+    ],
+    "question_ko": "주만을 위한 권한 하나를 말해보아라.",
+    "answers_ko": [
+      "학교 교육 제공",
+      "보호 서비스 제공 (경찰 업무)",
+      "안전 서비스 제공 (소방 업무)",
+      "운전 면허 발급",
+      "용지 설정 및 토지 이용 승인"
+    ]
+  },
+  {
+    "id": 60,
+    "question_en": "What is the purpose of the 10th Amendment?",
+    "answers_en": [
+      "(It states that the) powers not given to the federal government belong to the states or to the people."
+    ],
+    "question_ko": "10번째 개정의 목적은 무엇인가요?",
+    "answers_ko": [
+      "연방정부에 주어지지 않은 권한은 주 또는 사람들의 것 (이라고 명시되어있습니다.)"
+    ]
+  },
+  {
+    "id": 61,
+    "question_en": "Who is the governor of your state now? *",
+    "answers_en": [
+      "Answers will vary. [District of Columbia residents should answer that D.C. does not have a governor.]"
+    ],
+    "question_ko": "당신이 사는 주의 주지사는 누구인가?*",
+    "answers_ko": [
+      "답은 해당 주에 따라 다름 [컬럼비아 특구 주민들은 D.C.는 주지사가 없다고 답해야 함.]"
+    ]
+  },
+  {
+    "id": 62,
+    "question_en": "What is the capital of your state?",
+    "answers_en": [
+      "Answers will vary. [District of Columbia residents should answer that D.C. is not a state and does not have a capital. Residents of U.S. territories should name the capital of the territory.] C: Rights and Responsibilities"
+    ],
+    "question_ko": "당신이 사는 주의 수도는 어디인가?",
+    "answers_ko": [
+      "답은 해당 주에 따라 다름 [컬럼비아 특구 주민들은 D.C.는 주의 수도가 없다고 답해야 함. 미국령에 사는 주민들은 그 영토의 수도를 말해야 함.] C: Rights and Responsibilities C: 권리와 책임"
+    ]
+  },
+  {
+    "id": 63,
+    "question_en": "There are four amendments to the U.S. Constitution about who can vote. Describe one of them.",
+    "answers_en": [
+      "Citizens eighteen ( and older (can vote).",
+      "You don’t have to pay (a poll tax) to vote.",
+      "Any citizen can vote. (Women and men can vote.)",
+      "A male citizen of any race (can vote)."
+    ],
+    "question_ko": "헌법에는 누가 투표할 수 있는가에 관한 4개의 헌법 수정 조항이 있다. 그 중 하나를",
+    "answers_ko": [
+      "18세 이상의 시민은 투표할 수 있다.",
+      "투표를 위해 인두세를 낼 필요가 없다.",
+      "시민은 누구나 투표할 수 있다. (여성이나 남성이나 투표할 수 있다.)",
+      "어떤 인종의 남성 시민이라도 투표할 수 있다."
+    ]
+  },
+  {
+    "id": 64,
+    "question_en": "Who can vote in federal elections, run for federal office, and serve on a jury in the United States?",
+    "answers_en": [
+      "Citizens",
+      "Citizens of the United States",
+      "U.S. citizens"
+    ],
+    "question_ko": "누가 연방 선거에서 투표하고, 연방 공직에 출마하며, 미국에서 배심원으로 봉사 할",
+    "answers_ko": [
+      "시민들",
+      "미국의 시민들",
+      "미 시민들"
+    ]
+  },
+  {
+    "id": 65,
+    "question_en": "What are three rights of everyone living in the United States?",
+    "answers_en": [
+      "Freedom of expression",
+      "Freedom of speech",
+      "Freedom of assembly",
+      "Freedom to petition the government",
+      "Freedom of religion",
+      "The right to bear arms"
+    ],
+    "question_ko": "미국에 살고 있는 모든 사람이 갖는 권리 중 세 가지는 무엇인가?",
+    "answers_ko": [
+      "표현의 자유",
+      "언론의 자유",
+      "집회의 자유",
+      "정부 청원의 자유",
+      "종교의 자유",
+      "무기 소지 권리"
+    ]
+  },
+  {
+    "id": 66,
+    "question_en": "What do we show loyalty to when we say the Pledge of Allegiance? *",
+    "answers_en": [
+      "The United States",
+      "The flag"
+    ],
+    "question_ko": "충성의 맹세를 말할 때, 무엇에 충성을 표하는 것인가?",
+    "answers_ko": [
+      "미국",
+      "국기"
+    ]
+  },
+  {
+    "id": 67,
+    "question_en": "Name two promises that new citizens make in the Oath of Allegiance.",
+    "answers_en": [
+      "Give up loyalty to other countries",
+      "Defend the (U.S.) Constitution",
+      "Obey the laws of the United States",
+      "Serve in the military (if needed)",
+      "Serve (help, do important work for) the nation (if needed)",
+      "Be loyal to the United States"
+    ],
+    "question_ko": "새로운 시민들의 충성 서약에서 하는 두가지 약속을 말해보라.",
+    "answers_ko": [
+      "다른 나라에 대한 충성심 포기",
+      "(미국을) 방어 헌법",
+      "미국 법률의 준수",
+      "(필요한 경우) 미국 군에 복무",
+      "(필요한 경우) 국가를 위한 중요한 일에 종사",
+      "미국에 충성"
+    ]
+  },
+  {
+    "id": 68,
+    "question_en": "How can people become United States citizens?",
+    "answers_en": [
+      "Be born in the United States, under the conditions set by the 14th Amendment",
+      "Naturalize",
+      "Derive citizenship (under conditions set by Congress)"
+    ],
+    "question_ko": "사람들은 어떻게 미국 시민권자가 되는 것입니까?",
+    "answers_ko": [
+      "미국 수정헌법 제14조에 명시된 조건에 따라 미국에서 태어나야 합니다",
+      "귀화",
+      "시민권을 얻습니다(의회가 정한 조건에 따름)"
+    ]
+  },
+  {
+    "id": 69,
+    "question_en": "What are two examples of civic participation in the United States?",
+    "answers_en": [
+      "Vote",
+      "Run for office",
+      "Join a political party",
+      "Help with a campaign",
+      "Join a civic group",
+      "Join a community group",
+      "Give an elected official your opinion (on an issue)",
+      "Contact elected officials",
+      "Support or oppose an issue or policy",
+      "Write to a newspaper"
+    ],
+    "question_ko": "미국의 시민 참여의 두가지 예는 무엇인가?",
+    "answers_ko": [
+      "투표",
+      "공직 출마",
+      "정당 가입",
+      "선거운동 지원",
+      "시민 단체 가입",
+      "지역 단체 가입",
+      "선출된 정치인들에게 (문제에 대한) 의견 제공",
+      "선출된 정치인들에게 연락",
+      "문제 또는 정책의 지지 또는 반대",
+      "신문사에 기고"
+    ]
+  },
+  {
+    "id": 70,
+    "question_en": "What is one way Americans can serve their country?",
+    "answers_en": [
+      "Vote",
+      "Pay taxes",
+      "Obey the law",
+      "Serve in the military",
+      "Run for office",
+      "Work for local, state, or federal government"
+    ],
+    "question_ko": "미국인의 자국을 위해 봉사 할 수 있는 한가지 방법은 무엇인가?",
+    "answers_ko": [
+      "투표",
+      "세금 납부",
+      "법률 준수",
+      "군 복무",
+      "공직 출마",
+      "지방, 주, 또는 연방 정부에서 복무"
+    ]
+  },
+  {
+    "id": 71,
+    "question_en": "Why is it important to pay federal taxes?",
+    "answers_en": [
+      "Required by law",
+      "All people pay to fund the federal government",
+      "Required by the (U.S.) Constitution (16th Amendment)",
+      "Civic duty"
+    ],
+    "question_ko": "왜 연방세를 내는 것이 중요합니까?",
+    "answers_ko": [
+      "법으로 요구됨.",
+      "모든 사람들은 연방정부 지원을 위해 세금을 냅니다.",
+      "(미국이) 요구함. 헌법 (16번째 개정)",
+      "시민 의무"
+    ]
+  },
+  {
+    "id": 72,
+    "question_en": "It is important for all men age 18 through 25 to register for the Selective Service. Name one reason why.",
+    "answers_en": [
+      "Required by law",
+      "Civic duty",
+      "Makes the draft fair, if needed AMERICAN HISTORY A: Colonial Period and Independence"
+    ],
+    "question_ko": "18세에서 25세 사이의 모든 남성들은 선택 서비스에 등록하는 것이 중요합니다.",
+    "answers_ko": [
+      "법으로 요구됨.",
+      "시민 의무",
+      "필요한 경우 초안을 공정하게 만듭니다. A: Colonial Period and Independence A : 식민지 시대와 독립"
+    ]
+  },
+  {
+    "id": 73,
+    "question_en": "The colonists came to America for many reasons. Name one.",
+    "answers_en": [
+      "Freedom",
+      "Political liberty",
+      "Religious freedom",
+      "Economic opportunity",
+      "Escape persecution"
+    ],
+    "question_ko": "식민지 주민들은 많은 이유로 미국에 왔다. 하나를 말해보아라.",
+    "answers_ko": [
+      "자유",
+      "정치적 자유",
+      "종교적 자유",
+      "경제적 기회",
+      "박해를 피하기 위해"
+    ]
+  },
+  {
+    "id": 74,
+    "question_en": "Who lived in America before the Europeans arrived? ",
+    "answers_en": [
+      "American Indians",
+      "Native Americans"
+    ],
+    "question_ko": "유럽인들이 오기 전에 미국에는 누가 살았는가? ",
+    "answers_ko": [
+      "아메리칸 인디언",
+      "아메리카 원주민들"
+    ]
+  },
+  {
+    "id": 75,
+    "question_en": "What group of people was taken and sold as slaves?",
+    "answers_en": [
+      "Africans",
+      "People from Africa"
+    ],
+    "question_ko": "어떤 사람들이 노예로 잡혀 팔렸는가?",
+    "answers_ko": [
+      "아프리카인들",
+      "아프리카에서 온 사람들"
+    ]
+  },
+  {
+    "id": 76,
+    "question_en": "What war did the Americans fight to win independence from Britain?",
+    "answers_en": [
+      "American Revolution",
+      "The (American) Revolutionary War",
+      "War for (American) Independence"
+    ],
+    "question_ko": "미국인들은 영국으로부터 독립 하기 위해 어떤 전쟁을 벌였는가?",
+    "answers_ko": [
+      "미국 혁명",
+      "(미국의) 혁명 전쟁",
+      "(미국의) 독립 전쟁"
+    ]
+  },
+  {
+    "id": 77,
+    "question_en": "Name one reason why the Americans declared independence from Britain.",
+    "answers_en": [
+      "High taxes",
+      "Taxation without representation",
+      "British soldiers stayed in Americans’ houses (boarding, quartering)",
+      "They did not have self-government",
+      "Boston Massacre",
+      "Boston Tea Party (Tea Act)",
+      "Stamp Act",
+      "Sugar Act",
+      "Townshend Acts",
+      "Intolerable (Coercive) Acts"
+    ],
+    "question_ko": "미국이 영국으로부터 독립을 선언 한 이유 한 가지를 말해 보아라.",
+    "answers_ko": [
+      "높은 세금",
+      "대의권 없는 납세 의무",
+      "영국 군인들은 미국인들의 집에 머물렀다 (기숙, 숙사 할당)",
+      "자치 정부 없음",
+      "보스턴 학살",
+      "보스턴 차 사건 (다세법)",
+      "인지세법",
+      "설탕법 (관세법)",
+      "타운젠드법",
+      "참을 수 없는 법"
+    ]
+  },
+  {
+    "id": 78,
+    "question_en": "Who wrote the Declaration of Independence? ",
+    "answers_en": [
+      "(Thomas) Jefferson"
+    ],
+    "question_ko": "독립 선언서는 누가 썼는가? ",
+    "answers_ko": [
+      "토마스 제퍼슨 "
+    ]
+  },
+  {
+    "id": 79,
+    "question_en": "When was the Declaration of Independence adopted?",
+    "answers_en": [
+      "July 4, 1776"
+    ],
+    "question_ko": "독입 선언서가 채택된 것은 언제인가?",
+    "answers_ko": [
+      "1776년 7월 4일"
+    ]
+  },
+  {
+    "id": 80,
+    "question_en": "The American Revolution had many important events. Name one.",
+    "answers_en": [
+      "(Battle of) Bunker Hill",
+      "Declaration of Independence",
+      "Washington Crossing the Delaware (Battle of Trenton)",
+      "(Battle of) Saratoga",
+      "Valley Forge (Encampment)",
+      "(Battle of) Yorktown (British surrender at Yorktown)"
+    ],
+    "question_ko": "미국 독립 혁명에는 많은 중요한 사건들이 있었다. 하나를 말해보아라.",
+    "answers_ko": [
+      "벙커 힐 (의 전투)",
+      "독립 선언문",
+      "워싱턴의 델라웨어 횡단 (트렌턴의 전투)",
+      "사라토가 (의 전투)",
+      "벨리 포지 (진지)",
+      "요크 타운 (의 전투) (영국군의 요크 타운에서의 항복)"
+    ]
+  },
+  {
+    "id": 81,
+    "question_en": "There were 13 original states. Name five.",
+    "answers_en": [
+      "New Hampshire",
+      "Massachusetts",
+      "Rhode Island",
+      "Connecticut",
+      "New York",
+      "New Jersey",
+      "Pennsylvania",
+      "Delaware",
+      "Maryland",
+      "Virginia",
+      "North Carolina",
+      "South Carolina",
+      "Georgia"
+    ],
+    "question_ko": "처음에는 13개 주가 있었다. 그 중 다섯개 주의 이름을 말하라.",
+    "answers_ko": [
+      "뉴햄프셔",
+      "매사추세츠",
+      "로드 아일랜드",
+      "코네티컷",
+      "뉴욕",
+      "뉴저지",
+      "펜실베니아",
+      "델라웨어",
+      "메릴랜드",
+      "버지니아",
+      "노스 캐롤라이나",
+      "사우스 캐롤라이나",
+      "조지아"
+    ]
+  },
+  {
+    "id": 82,
+    "question_en": "What founding document was written in 1787?",
+    "answers_en": [
+      "(U.S.) Constitution"
+    ],
+    "question_ko": "1787년에 어떤 창립 문서가 작성되었는가?",
+    "answers_ko": [
+      "(미국) 헌법"
+    ]
+  },
+  {
+    "id": 83,
+    "question_en": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+    "answers_en": [
+      "(James) Madison",
+      "(Alexander) Hamilton",
+      "(John) Jay",
+      "Publius"
+    ],
+    "question_ko": "연방주의자 논문집은 미국 헌법의 가결을 지지했다. 저자 중 한 사람의 이름을",
+    "answers_ko": [
+      "제임스 매디슨",
+      "알렉산더 해밀튼",
+      "존 제이",
+      "퍼블리우스"
+    ]
+  },
+  {
+    "id": 84,
+    "question_en": "Why were the Federalist Papers important?",
+    "answers_en": [
+      "They helped people understand the (U.S.) Constitution.",
+      "They supported passing the (U.S.) Constitution."
+    ],
+    "question_ko": "연방주의자 논집 (Federalist Papers)이 중요한 이유는 무엇인가?",
+    "answers_ko": [
+      "그는 사람들이 (미국)을 이해하게 도와주었다. 헌법,",
+      "그들은 (미국의) 통과를 지지했다. 헌법,"
+    ]
+  },
+  {
+    "id": 85,
+    "question_en": "Benjamin Franklin is famous for many things. Name one.",
+    "answers_en": [
+      "Founded the first free public libraries",
+      "First Postmaster General of the United States",
+      "Helped write the Declaration of Independence",
+      "Inventor",
+      "U.S. diplomat"
+    ],
+    "question_ko": "벤자민 프랭클린은 많은 이유들로 유명하다. 하나를 말해보아라.",
+    "answers_ko": [
+      "최초의 무료 공공 도서관 설립",
+      "미국 최초의 우체국장",
+      "독립 선언문 작성 지원",
+      "발명가",
+      "미국 외교관"
+    ]
+  },
+  {
+    "id": 86,
+    "question_en": "George Washington is famous for many things. Name one. ",
+    "answers_en": [
+      "“Father of Our Country”",
+      "First president of the United States",
+      "General of the Continental Army",
+      "President of the Constitutional Convention"
+    ],
+    "question_ko": "조지 워싱턴은 많은 이유들로 유명하다. 하나를 말해보아라. ",
+    "answers_ko": [
+      "\"우리 조국의 아버지\"",
+      "미국의 초대 대통령",
+      "대륙군의 장군",
+      "헌법 협정의 회장"
+    ]
+  },
+  {
+    "id": 87,
+    "question_en": "Thomas Jefferson is famous for many things. Name one.",
+    "answers_en": [
+      "Writer of the Declaration of Independence",
+      "Third president of the United States",
+      "Doubled the size of the United States (Louisiana Purchase)",
+      "First Secretary of State",
+      "Founded the University of Virginia",
+      "Writer of the Virginia Statute on Religious Freedom"
+    ],
+    "question_ko": "토마스 제퍼슨은 다양한 이유들로 유명하다. 하나를 말해보아라.",
+    "answers_ko": [
+      "독립 선언서 작성자",
+      "미국의 제 3대 대통령",
+      "(루이지애나 매입으로) 미국 영토의 두 배 증가",
+      "최초의 국무 장관",
+      "버지니아 대학 설립",
+      "버지니아 종교 자유 법령의 작성자"
+    ]
+  },
+  {
+    "id": 88,
+    "question_en": "James Madison is famous for many things. Name one.",
+    "answers_en": [
+      "“Father of the Constitution”",
+      "Fourth president of the United States",
+      "President during the War of 1812",
+      "One of the writers of the Federalist Papers"
+    ],
+    "question_ko": "제임스 매디슨은 많은 이유들로 유명하다. 하나를 말해보아라.",
+    "answers_ko": [
+      "\"헌법의 아버지\"",
+      "미국의 제 4대 대통령",
+      "1812년의 전쟁 당시 대통령",
+      "연방주의자 논집의 작성자 중 하나"
+    ]
+  },
+  {
+    "id": 89,
+    "question_en": "Alexander Hamilton is famous for many things. Name one.",
+    "answers_en": [
+      "First Secretary of the Treasury",
+      "One of the writers of the Federalist Papers",
+      "Helped establish the First Bank of the United States",
+      "Aide to General George Washington",
+      "Member of the Continental Congress"
+    ],
+    "question_ko": "알렉산더 헤밀턴은 많은 이유들로 유명하다. 하나를 말해보아라.",
+    "answers_ko": [
+      "재무부 제 1대 장관",
+      "연방주의자 논집의 작성자 중 하나",
+      "미국의 첫 은행 설립 지원",
+      "조지 워싱턴 장군의 보자관",
+      "대룩 의회의 위원 B: 1800년대"
+    ]
+  },
+  {
+    "id": 90,
+    "question_en": "What territory did the United States buy from France in 1803?",
+    "answers_en": [
+      "Louisiana Territory",
+      "Louisiana"
+    ],
+    "question_ko": "미국이 1803년 프랑스로부터 매입한 영토는 어디인가?",
+    "answers_ko": [
+      "루이지애나 영토",
+      "루이지애나"
+    ]
+  },
+  {
+    "id": 91,
+    "question_en": "Name one war fought by the United States in the 1800s.",
+    "answers_en": [
+      "War of 1812",
+      "Mexican-American War",
+      "Civil War",
+      "Spanish-American War"
+    ],
+    "question_ko": "C1800년대에 미국이 치른 전쟁 중 한 가지를 말하라.",
+    "answers_ko": [
+      "1812년 전쟁",
+      "멕시코-미국 전쟁",
+      "남북전쟁",
+      "스페인-미국 전쟁"
+    ]
+  },
+  {
+    "id": 92,
+    "question_en": "Name the U.S. war between the North and the South.",
+    "answers_en": [
+      "The Civil War"
+    ],
+    "question_ko": "남부와 북부 사이에 벌어진 미국의 전쟁 이름을 말하라.",
+    "answers_ko": [
+      "남북전쟁"
+    ]
+  },
+  {
+    "id": 93,
+    "question_en": "The Civil War had many important events. Name one.",
+    "answers_en": [
+      "(Battle of) Fort Sumter",
+      "Emancipation Proclamation",
+      "(Battle of) Vicksburg",
+      "(Battle of) Gettysburg",
+      "Sherman’s March",
+      "(Surrender at) Appomattox",
+      "(Battle of) Antietam/Sharpsburg",
+      "Lincoln was assassinated."
+    ],
+    "question_ko": "남북 전쟁에는 많은 중요한 사건들이 있었다. 하나를 말해보아라.",
+    "answers_ko": [
+      "섬터 요새 (의 전투)",
+      "해방 선언문",
+      "빅스버그 (의 전투)",
+      "게티즈버그 (의 전투)",
+      "셔먼의 행진 31 시민권 시험 문제 및 답변 128가지(2025년",
+      "아포마톡스의 (항복)",
+      "안티에탐/샤프스버그 (의 전투)",
+      "링컨의 암살"
+    ]
+  },
+  {
+    "id": 94,
+    "question_en": "Abraham Lincoln is famous for many things. Name one. ",
+    "answers_en": [
+      "Freed the slaves (Emancipation Proclamation)",
+      "Saved (or preserved) the Union",
+      "Led the United States during the Civil War",
+      "16th president of the United States",
+      "Delivered the Gettysburg Address"
+    ],
+    "question_ko": "에이브라함 링컨은 많은 이유들로 유명하다. 하나를 말해보아라. ",
+    "answers_ko": [
+      "노예 해방 (해방 선언문)",
+      "연방의 구조 (또는 보존)",
+      "남북 전쟁 준 미국 주도",
+      "미국의 제 16대 대통령",
+      "게티즈버그 연설"
+    ]
+  },
+  {
+    "id": 95,
+    "question_en": "What did the Emancipation Proclamation do?",
+    "answers_en": [
+      "Freed the slaves",
+      "Freed slaves in the Confederacy",
+      "Freed slaves in the Confederate states",
+      "Freed slaves in most Southern states"
+    ],
+    "question_ko": "노예 해방 선언은 어떤 일을 했는가?",
+    "answers_ko": [
+      "노예들을 해방시킴",
+      "남부 연합에서의 노예 해방",
+      "납부 연합 주에서의 노예 해방",
+      "남부 대부분의 주에서 노예 해방"
+    ]
+  },
+  {
+    "id": 96,
+    "question_en": "What U.S. war ended slavery?",
+    "answers_en": [
+      "The Civil War"
+    ],
+    "question_ko": "미국의 무슨 전쟁이 노예 제도를 종식 시켰는가?",
+    "answers_ko": [
+      "남북전쟁"
+    ]
+  },
+  {
+    "id": 97,
+    "question_en": "What amendment says all persons born or naturalized in the United States,",
+    "answers_en": [
+      "14th Amendment"
+    ],
+    "question_ko": "미국에서 태어나거나 귀화하여 미국의 관할권에 속하는 모든 사람을 미국 시민으로",
+    "answers_ko": [
+      "미국 수정 헌법 제 14조"
+    ]
+  },
+  {
+    "id": 98,
+    "question_en": "When did all men get the right to vote?",
+    "answers_en": [
+      "After the Civil War",
+      "During Reconstruction",
+      "(With the) 15th Amendment",
+      "1870"
+    ],
+    "question_ko": "언제 모든 남성들이 투표할 권리를 얻었는가?",
+    "answers_ko": [
+      "남북전쟁 이후",
+      "재건 시대 중",
+      "미국 수정 헌법 제 15조",
+      "1870년"
+    ]
+  },
+  {
+    "id": 99,
+    "question_en": "Name one leader of the women’s rights movement in the 1800s.",
+    "answers_en": [
+      "Susan B. Anthony",
+      "Elizabeth Cady Stanton",
+      "Sojourner Truth",
+      "Harriet Tubman",
+      "Lucretia Mott",
+      "Lucy Stone C: Recent American History and Other Important Historical Information"
+    ],
+    "question_ko": "1800년대의 여성 인권 운동의 지도자 중 한명의 이름을 말하라.",
+    "answers_ko": [
+      "수잔 비 안토니",
+      "엘리자베스 케이디 스탠튼",
+      "소저너 투르스",
+      "헤리엣 터브맨",
+      "루크레티아 모트",
+      "루시 스톤 C: Recent American History and Other Important Historical Information C: 미국의 근현대사 및 기타 역사적 정보"
+    ]
+  },
+  {
+    "id": 100,
+    "question_en": "Name one war fought by the United States in the 1900s.",
+    "answers_en": [
+      "World War I",
+      "World War II",
+      "Korean War",
+      "Vietnam War",
+      "(Persian) Gulf War"
+    ],
+    "question_ko": "1900년대에 미국이 치룬 전쟁 중 한 가지를 말하라.",
+    "answers_ko": [
+      "세계 1차 대전",
+      "세계 2차 대전",
+      "한국 전쟁",
+      "베트남 전쟁",
+      "(페르시아) 걸프 전쟁"
+    ]
+  },
+  {
+    "id": 101,
+    "question_en": "Why did the United States enter World War I?",
+    "answers_en": [
+      "Because Germany attacked U.S. (civilian) ships",
+      "To support the Allied Powers (England, France, Italy, and Russia)",
+      "To oppose the Central Powers (Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria)"
+    ],
+    "question_ko": "미국은 왜 제 1차 세계 대전에 참전했는가?",
+    "answers_ko": [
+      "독일의 미국 (민간) 선박을 공격했기 때문에 34 시민권 시험 문제 및 답변 128가지(2025년",
+      "연합국 (영국, 프랑스, 이탈리아, 러시아)를 지원하기 위해",
+      "중앙 강대국 (독일, 오스트리아-헝가리, 오스만 제국, 그리고 불가리아)를 반대하기 위해"
+    ]
+  },
+  {
+    "id": 102,
+    "question_en": "When did all women get the right to vote?",
+    "answers_en": [
+      "1920",
+      "After World War I",
+      "(With the) 19th Amendment"
+    ],
+    "question_ko": "언제 모든 여성들이 투표할 권리를 얻었는가?",
+    "answers_ko": [
+      "1920년",
+      "제 1차 세계대전 이후",
+      "미국 수정 헌법 제 19조"
+    ]
+  },
+  {
+    "id": 103,
+    "question_en": "What was the Great Depression?",
+    "answers_en": [
+      "Longest economic recession in modern history"
+    ],
+    "question_ko": "대공황은 무엇이였는가?",
+    "answers_ko": [
+      "현대사에서 가장 긴 경제 불황"
+    ]
+  },
+  {
+    "id": 104,
+    "question_en": "When did the Great Depression start?",
+    "answers_en": [
+      "The Great Crash (1929)",
+      "Stock market crash of 1929"
+    ],
+    "question_ko": "대공황은 언제 시작 되었습니까?",
+    "answers_ko": [
+      "그레이트 크래쉬 (1929)",
+      "1929년의 주식 시장 붕괴"
+    ]
+  },
+  {
+    "id": 105,
+    "question_en": "Who was president during the Great Depression and World War II?",
+    "answers_en": [
+      "(Franklin) Roosevelt"
+    ],
+    "question_ko": "경제 대공황과 세계 2차 대전 기간 중 대통령은 누구였는가?",
+    "answers_ko": [
+      "프랭클린 루즈벨트"
+    ]
+  },
+  {
+    "id": 106,
+    "question_en": "Why did the United States enter World War II?",
+    "answers_en": [
+      "(Bombing of) Pearl Harbor",
+      "Japanese attacked Pearl Harbor",
+      "To support the Allied Powers (England, France, and Russia)",
+      "To oppose the Axis Powers (Germany, Italy, and Japan)"
+    ],
+    "question_ko": "미국은 왜 제 2차 세계 대전에 참전 했는가?",
+    "answers_ko": [
+      "진주만 (폭격)",
+      "일본의 진주만 공격",
+      "연합국 (영국, 프랑스, 러시아)를 지원하기 위해",
+      "추축국 (독일, 이탈리아, 그리고 일본)을 반대하기 위해"
+    ]
+  },
+  {
+    "id": 107,
+    "question_en": "Dwight Eisenhower is famous for many things. Name one.",
+    "answers_en": [
+      "General during World War II",
+      "President at the end of (during) the Korean War",
+      "34th president of the United States",
+      "Signed the Federal-Aid Highway Act of 1956 (Created the Interstate System)"
+    ],
+    "question_ko": "드와이트 아이젠하워는 많은 이유들로 유명하다. 하나를 말해보아라.",
+    "answers_ko": [
+      "제 2 차 세계 대전 중 장군",
+      "6.25 전쟁 말기 (중) 대통령",
+      "미국의 제 34대 대통령",
+      "1956년 연방 지원 고속도로 법 서명 (주간 시스템 구축)"
+    ]
+  },
+  {
+    "id": 108,
+    "question_en": "Who was the United States’ main rival during the Cold War?",
+    "answers_en": [
+      "Soviet Union",
+      "USSR",
+      "Russia"
+    ],
+    "question_ko": "냉전 당시 미국의 주요 라이벌은 누구 였는가?",
+    "answers_ko": [
+      "소비엣 연방",
+      "소련",
+      "러시아"
+    ]
+  },
+  {
+    "id": 109,
+    "question_en": "During the Cold War, what was one main concern of the United States?",
+    "answers_en": [
+      "Communism",
+      "Nuclear war"
+    ],
+    "question_ko": "냉전 당시, 미국의 가장 큰 걱정은 무엇 이였는가?",
+    "answers_ko": [
+      "공산주의",
+      "핵 전쟁"
+    ]
+  },
+  {
+    "id": 110,
+    "question_en": "Why did the United States enter the Korean War?",
+    "answers_en": [
+      "To stop the spread of communism"
+    ],
+    "question_ko": "미국은 왜 6.25 전쟁에 참여 했는가?",
+    "answers_ko": [
+      "공산주의의 확산을 막기 위해"
+    ]
+  },
+  {
+    "id": 111,
+    "question_en": "Why did the United States enter the Vietnam War?",
+    "answers_en": [
+      "To stop the spread of communism"
+    ],
+    "question_ko": "미국은 왜 베트남 전쟁에 참여 했는가?",
+    "answers_ko": [
+      "공산주의의 확산을 막기 위해"
+    ]
+  },
+  {
+    "id": 112,
+    "question_en": "What did the civil rights movement do?",
+    "answers_en": [
+      "Fought to end racial discrimination"
+    ],
+    "question_ko": "미국의 시민권 운동들은 무엇을 했는가?",
+    "answers_ko": [
+      "인종 차별을 끝내기 위해 싸움"
+    ]
+  },
+  {
+    "id": 113,
+    "question_en": "Martin Luther King, Jr. is famous for many things. Name one. *",
+    "answers_en": [
+      "Fought for civil rights",
+      "Worked for equality for all Americans",
+      "Worked to ensure that people would “not be judged by the color of their skin, but by the content of their character”"
+    ],
+    "question_ko": "Martin Luther King, Jr.는 많은 것으로 유명합니다. 하나를 대시오. *",
+    "answers_ko": [
+      "시민 권리를 위해 투쟁함.",
+      "미국의 평등권을 위해 싸움.",
+      "사람들이 \"피부색이 아니라 어떤 사람인지에 의해 판단되기 위해\" 노력함"
+    ]
+  },
+  {
+    "id": 114,
+    "question_en": "Why did the United States enter the Persian Gulf War?",
+    "answers_en": [
+      "To force the Iraqi military from Kuwait"
+    ],
+    "question_ko": "미국은 왜 페르시아 걸프 전쟁에 참여 했는가?",
+    "answers_ko": [
+      "쿠웨이트 에서 이라크 군대를 굴복시키기 위해"
+    ]
+  },
+  {
+    "id": 115,
+    "question_en": "What major event happened on September 11, 2001 in the United States? ",
+    "answers_en": [
+      "Terrorists attacked the United States",
+      "Terrorists took over two planes and crashed them into the World Trade Center in New York City",
+      "Terrorists took over a plane and crashed into the Pentagon in Arlington, Virginia",
+      "Terrorists took over a plane originally aimed at Washington, D.C., and crashed in a field in Pennsylvania"
+    ],
+    "question_ko": "미국에서는 2001년 9월 11일에 어떤 큰 사건이 발생했는가? ",
+    "answers_ko": [
+      "테러범들이 미국을 공격함.",
+      "테러리스트들이 비행기 두 대를 탈취 해 뉴욕시의 세계 무역 센터에 추락시켰다.",
+      "테러리스트들이 비행기를 탈취 해 버지니아 주 알링턴에 위치한 펜타곤 (미 국방청)에 추락시켰다.",
+      "테러리스트들이 비행기를 탈취 해 원래 워싱턴 D.C.에 추락 하도록 겨냥 했으나 펜실베니아의 틀판에 추락 했다. 38 시민권 시험 문제 및 답변 128가지(2025년"
+    ]
+  },
+  {
+    "id": 116,
+    "question_en": "Name one U.S. military conflict after the September 11, 2001 attacks.",
+    "answers_en": [
+      "(Global) War on Terror",
+      "War in Afghanistan",
+      "War in Iraq"
+    ],
+    "question_ko": "2001년 9월 11일의 공격 이후 미군의 분쟁 중 하나를 말하라.",
+    "answers_ko": [
+      "(국제적인) 테러와의 전쟁",
+      "아프가니스탄 전쟁",
+      "이라크 전쟁"
+    ]
+  },
+  {
+    "id": 117,
+    "question_en": "Name one American Indian tribe in the United States.",
+    "answers_en": [
+      "Apache",
+      "Blackfeet",
+      "Cayuga",
+      "Cherokee",
+      "Cheyenne",
+      "Chippewa",
+      "Choctaw",
+      "Creek",
+      "Crow",
+      "Hopi",
+      "Huron",
+      "Inupiat",
+      "Lakota",
+      "Mohawk",
+      "Mohegan",
+      "Navajo",
+      "Oneida",
+      "Onondaga",
+      "Pueblo",
+      "Seminole",
+      "Seneca",
+      "Shawnee",
+      "Sioux",
+      "Teton",
+      "Tuscarora For a complete list of tribes, please visit bia.gov."
+    ],
+    "question_ko": "미국의 원주민 부족의 이름 하나를 말하라.",
+    "answers_ko": [
+      "아파치",
+      "블랙피트",
+      "카유가",
+      "체로키",
+      "샤이엔",
+      "치페와",
+      "초크타",
+      "크리크",
+      "크로우",
+      "호피",
+      "후론",
+      "이누피에트",
+      "라코타",
+      "모하크",
+      "모헤겐",
+      "나바호",
+      "오네이다",
+      "오논다가",
+      "푸에블로",
+      "세미놀레",
+      "세네카",
+      "샤니",
+      "시옥스",
+      "테톤",
+      "투스카로라"
+    ]
+  },
+  {
+    "id": 118,
+    "question_en": "Name one example of an American innovation.",
+    "answers_en": [
+      "Light bulb",
+      "Automobile (cars, internal combustion engine)",
+      "Skyscrapers",
+      "Airplane",
+      "Assembly line",
+      "Landing on the moon",
+      "Integrated circuit (IC) SYMBOLS AND HOLIDAYS A: Symbols"
+    ],
+    "question_ko": "미국의 혁신의 한 예를 말하라.",
+    "answers_ko": [
+      "전구",
+      "자동차 (차, 가연성 엔진)",
+      "고층 빌딩",
+      "비행기",
+      "조립 라인",
+      "달 착륙",
+      "집적 회로 (IC) Symbols and holidays A: Symbols 기호 및 공휴일 A: 상징"
+    ]
+  },
+  {
+    "id": 119,
+    "question_en": "What is the capital of the United States?",
+    "answers_en": [
+      "Washington, D.C."
+    ],
+    "question_ko": "미국의 수도는 어디인가?",
+    "answers_ko": [
+      "워싱턴 디씨"
+    ]
+  },
+  {
+    "id": 120,
+    "question_en": "Where is the Statue of Liberty?",
+    "answers_en": [
+      "New York (Harbor)",
+      "Liberty Island [Also acceptable are New Jersey, near New York City, and on the Hudson (River).]"
+    ],
+    "question_ko": "자유의 여신상은 어디에 있는가?",
+    "answers_ko": [
+      "뉴욕항",
+      "리버티 섬 [뉴저지, 뉴욕시 근처, 허드슨 강이라는 답도 가능하다]"
+    ]
+  },
+  {
+    "id": 121,
+    "question_en": "Why does the flag have 13 stripes? ",
+    "answers_en": [
+      "(Because there were) 13 original colonies",
+      "(Because the stripes) represent the original colonies"
+    ],
+    "question_ko": "미국 성조기에는 왜 13개의 줄이 있는가?*",
+    "answers_ko": [
+      "최초 식민 이주지가 13개였기 때문에",
+      "줄무늬는 최초의 13개 식민 이주지를 나타내기 때문에"
+    ]
+  },
+  {
+    "id": 122,
+    "question_en": "Why does the flag have 50 stars?",
+    "answers_en": [
+      "(Because there is) one star for each state",
+      "(Because) each star represents a state",
+      "(Because there are) 50 states"
+    ],
+    "question_ko": "미국 성조기에는 왜 50개의 별이 있는가?",
+    "answers_ko": [
+      "각 주마다 하나의 별이 있기 때문에",
+      "각 별이 한 주를 나타내기 때문에",
+      "50개의 주가 있기 때문에"
+    ]
+  },
+  {
+    "id": 123,
+    "question_en": "What is the name of the national anthem?",
+    "answers_en": [
+      "The Star-Spangled Banner"
+    ],
+    "question_ko": "국가의 이름은 무엇인가?",
+    "answers_ko": [
+      "성조기 42 시민권 시험 문제 및 답변 128가지(2025년"
+    ]
+  },
+  {
+    "id": 124,
+    "question_en": "The Nation’s first motto was “E Pluribus Unum.” What does that mean?",
+    "answers_en": [
+      "Out of many, one",
+      "We all become one B: Holidays"
+    ],
+    "question_ko": "이 국가의 첫 모토는 \"E Pluribus Unum\" 이다. 이는 무슨 의미인가?",
+    "answers_ko": [
+      "여럿에서 하나로",
+      "모두 하나가 된다. B: Holidays B: 공휴일"
+    ]
+  },
+  {
+    "id": 125,
+    "question_en": "What is Independence Day?",
+    "answers_en": [
+      "A holiday to celebrate U.S. independence (from Britain)",
+      "The country’s birthday"
+    ],
+    "question_ko": "독립기념일은 무엇인가?",
+    "answers_ko": [
+      "미국의 (영국으로부터) 독립을 축하하는 휴일",
+      "나라의 생일"
+    ]
+  },
+  {
+    "id": 126,
+    "question_en": "Name three national U.S. holidays. ",
+    "answers_en": [
+      "New Year’s Day",
+      "Martin Luther King, Jr. Day",
+      "Presidents Day (Washington’s Birthday)",
+      "Memorial Day",
+      "Juneteenth",
+      "Independence Day",
+      "Labor Day",
+      "Columbus Day",
+      "Veterans Day",
+      "Thanksgiving Day",
+      "Christmas Day"
+    ],
+    "question_ko": "미국의 국가 공휴일 중 셋 가지를 말하라.",
+    "answers_ko": [
+      "새해 첫날",
+      "마틴 루터 킹 2세 기념일 ",
+      "대통령 기념일 (워싱턴의 생일)",
+      "전몰 장병 추도 기념일",
+      "독립 기념일",
+      "노동절",
+      "콜럼버스 기념일",
+      "재향 군인의 날",
+      "추수 감사절",
+      "크리스마스"
+    ]
+  },
+  {
+    "id": 127,
+    "question_en": "What is Memorial Day?",
+    "answers_en": [
+      "A holiday to honor soldiers who died in military service"
+    ],
+    "question_ko": "현충일은 무엇인가?",
+    "answers_ko": [
+      "군 복무 중 사망 한 군인을 기리는 휴일"
+    ]
+  },
+  {
+    "id": 128,
+    "question_en": "What is Veterans Day?",
+    "answers_en": [
+      "A holiday to honor people in the (U.S.) military",
+      "A holiday to honor people who have served (in the U.S. military)"
+    ],
+    "question_ko": "재향 군인의 날은 무엇인가?",
+    "answers_ko": [
+      "미군에 속한 이들을 기리기 위한 휴일",
+      "(미국 군대에) 복무한 사람들을 기리기 위한 휴일 44"
+    ]
+  }
+]
