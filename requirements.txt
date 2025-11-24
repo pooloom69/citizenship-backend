@@ -1,9 +1,15 @@
-
 fastapi==0.110.0
 uvicorn[standard]==0.30.0
-
-python-dotenv==1.0.1
+gunicorn==22.0.0
 openai==1.40.1
-
 pydantic==2.7.0
+
+pydantic의 환경변수 관리용
+
+pydantic-settings==2.2.1
+python-dotenv==1.0.1
+
+파일 업로드(STT) 및 네트워크 안정성 관련
+
+python-multipart==0.0.9
 aiofiles==23.2.1
