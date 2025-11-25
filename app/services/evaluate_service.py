@@ -3,7 +3,7 @@ from app.config import settings
 import json
 from typing import List, Dict, Any
 
-client = OpenAI(api_key=settings.OPENAI_API_KEY)
+client = OpenAI()
 
 def evaluate_answer(correct_answers: List[str], user_answer: str) -> Dict[str, Any]:
     # 프롬프트: 영어로 피드백을 주도록 변경했습니다.

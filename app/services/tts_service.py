@@ -2,7 +2,7 @@ import base64
 from openai import OpenAI
 from app.config import settings
 
-client = OpenAI(api_key=settings.OPENAI_API_KEY)
+client = OpenAI()
 
 def generate_tts(text: str) -> str:
     try:
