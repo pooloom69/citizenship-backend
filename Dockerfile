@@ -15,6 +15,10 @@ COPY requirements.txt .
 # Install python packages
 RUN pip install --no-cache-dir -r requirements.txt
 
+# 🚨 강제 삭제 & 재설치 — 이것이 가장 중요함
+RUN pip uninstall -y openai || true
+RUN pip install --upgrade --force-reinstall openai==1.40.1
+
 # Copy project
 COPY . .
 
