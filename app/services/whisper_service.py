@@ -5,7 +5,7 @@ from fastapi import UploadFile
 from typing import Optional
 
 # 클라이언트 초기화
-client = OpenAI(api_key=settings.OPENAI_API_KEY)
+client = OpenAI()
 
 async def transcribe_audio(audio_file: UploadFile) -> str:
     """
