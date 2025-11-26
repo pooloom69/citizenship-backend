@@ -3,9 +3,9 @@ from openai import OpenAI
 from app.config import settings
 from fastapi import UploadFile
 from typing import Optional
-
+import os
 # 클라이언트 초기화
-client = OpenAI()
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 async def transcribe_audio(audio_file: UploadFile) -> str:
     """
