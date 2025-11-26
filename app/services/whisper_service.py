@@ -4,26 +4,15 @@ from app.config import settings
 from fastapi import UploadFile
 from typing import Optional
 import os
-import requests
 
-class RequestsTransport:
-    def __init__(self):
-        self.session = requests.Session()
+# 🔥 Proxy 환경변수 완전 제거
+for key in ["HTTP_PROXY", "HTTPS_PROXY", "http_proxy", "https_proxy"]:
+    os.environ.pop(key, None)
 
-    def request(self, method, url, headers=None, data=None, json=None, files=None):
-        response = self.session.request(
-            method=method,
-            url=url,
-            headers=headers,
-            data=data,
-            json=json,
-            files=files
-        )
-        return response
-
+# 🔥 OpenAI client – 기본 transport 사용 (httpx 비활성화됨)
 client = OpenAI(
     api_key=os.getenv("OPENAI_API_KEY"),
-    http_client=RequestsTransport()
+    http_client=None   # ⭐ 핵심: 커스텀 transport 금지. 기본 transport 사용
 )
 
 async def transcribe_audio(audio_file: UploadFile) -> str:
