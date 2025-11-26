@@ -1,14 +1,14 @@
-fastapi==0.110.0
-uvicorn[standard]==0.30.0
-gunicorn==22.0.0
-openai==1.40.1
-
-pydantic==2.10.0
-pydantic-settings==2.5.2
-
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+openai==1.12.0
 python-dotenv==1.0.1
 python-multipart==0.0.9
 aiofiles==23.2.1
 
-setuptools
-wheel
+
+
+pydantic==2.6.1
+pydantic-settings==2.1.0
+
+
+gunicorn==21.2.0
