@@ -2,19 +2,27 @@ import base64
 from openai import OpenAI
 from app.config import settings
 import os
-import httpx
+import requests
 
-# 🚨 [수정] 프록시 설정이 없는 깨끗한 HTTP 클라이언트 생성
-# 이렇게 하면 Railway나 Render의 환경 변수(HTTP_PROXY)를 무시합니다.
-custom_http_client = httpx.Client(proxies=None)
+class RequestsTransport:
+    def __init__(self):
+        self.session = requests.Session()
 
-# OpenAI 클라이언트에 커스텀 HTTP 클라이언트 주입
+    def request(self, method, url, headers=None, data=None, json=None, files=None):
+        response = self.session.request(
+            method=method,
+            url=url,
+            headers=headers,
+            data=data,
+            json=json,
+            files=files
+        )
+        return response
+
 client = OpenAI(
     api_key=os.getenv("OPENAI_API_KEY"),
-    http_client=custom_http_client # ✅ [수정] 직접 만든 클라이언트 주입
+    http_client=RequestsTransport()
 )
-
-
 def generate_tts(text: str) -> str:
     try:
         # TTS용 공식 모델명은 'tts-1' 입니다.

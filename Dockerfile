@@ -16,6 +16,9 @@ RUN /app/.venv/bin/pip install --upgrade pip
 # Copy requirements
 COPY requirements.txt .
 
+RUN /app/.venv/bin/pip uninstall -y httpx || true
+
+
 # Install dependencies INSIDE venv
 RUN /app/.venv/bin/pip install --no-cache-dir -r requirements.txt
 
