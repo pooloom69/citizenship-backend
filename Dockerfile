@@ -19,11 +19,17 @@ COPY requirements.txt .
 # Install dependencies INSIDE venv
 RUN /app/.venv/bin/pip install --no-cache-dir -r requirements.txt
 
-# Force reinstall OpenAI 최신 버전 in venv
-RUN /app/.venv/bin/pip install --upgrade --force-reinstall openai==1.40.1
+# Force reinstall OpenAI 최신 버전
+RUN /app/.venv/bin/pip install --upgrade --force-reinstall openai==1.47.0
 
 # Copy project
 COPY . .
+
+# ⛔ Proxy auto detect 문제 방지 (매우 중요)
+ENV HTTP_PROXY=""
+ENV HTTPS_PROXY=""
+ENV http_proxy=""
+ENV https_proxy=""
 
 # Uvicorn uses python from venv
 ENV PATH="/app/.venv/bin:$PATH"

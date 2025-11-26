@@ -3,6 +3,12 @@ from app.config import settings
 import json
 from typing import List, Dict, Any
 import os
+
+# 모든 proxy 제거
+os.environ.pop("HTTP_PROXY", None)
+os.environ.pop("HTTPS_PROXY", None)
+os.environ.pop("http_proxy", None)
+os.environ.pop("https_proxy", None)
 # 🚨 [수정] http_client=None 추가. 이것이 proxies 충돌을 막는 핵심입니다.
 client = OpenAI(
     api_key=os.getenv("OPENAI_API_KEY"),
