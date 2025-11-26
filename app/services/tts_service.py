@@ -1,21 +1,35 @@
-import base64
-from openai import OpenAI
-from app.config import settings
-import os
+# 
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+import os
+import base64
+import requests
+
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 def generate_tts(text: str) -> str:
     try:
-        # TTS용 공식 모델명은 'tts-1' 입니다.
-        response = client.audio.speech.create(
-            model="tts-1",
-            voice="alloy", # 목소리: alloy, echo, fable, onyx, nova, shimmer 중 택1
-            input=text
-        )
+        url = "https://api.openai.com/v1/audio/speech"
 
-        audio_bytes = response.read()
-        return base64.b64encode(audio_bytes).decode('utf-8')
+        headers = {
+            "Authorization": f"Bearer {OPENAI_API_KEY}",
+            "Content-Type": "application/json"
+        }
+
+        payload = {
+            "model": "gpt-4o-mini-tts",  # 최신 권장 모델
+            "voice": "alloy",
+            "input": text
+        }
+
+        response = requests.post(url, json=payload, headers=headers)
+
+        if response.status_code != 200:
+            print("TTS Error:", response.text)
+            return ""
+
+        audio_bytes = response.content
+        return base64.b64encode(audio_bytes).decode("utf-8")
+
     except Exception as e:
-        print(f"TTS API generation failed: {e}")
+        print(f"TTS generation failed: {e}")
         return ""
