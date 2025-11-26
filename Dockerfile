@@ -2,29 +2,31 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-# Install pip + OS dependencies
+# Install OS dependencies
 RUN apt-get update && apt-get install -y \
-    python3-pip \
     build-essential \
     && rm -rf /var/lib/apt/lists/*
 
-# Upgrade pip
-RUN python3 -m pip install --upgrade pip
+# Create virtual environment
+RUN python3 -m venv /app/.venv
 
-# Remove all default python packages
-RUN pip list --format=freeze | cut -d '=' -f1 | xargs -r pip uninstall -y
+# Ensure venv pip is upgraded
+RUN /app/.venv/bin/pip install --upgrade pip
 
 # Copy requirements
 COPY requirements.txt .
 
-# Clean install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+# Install dependencies INSIDE venv
+RUN /app/.venv/bin/pip install --no-cache-dir -r requirements.txt
 
-# Force reinstall OpenAI 최신 버전
-RUN pip install --upgrade --force-reinstall openai==1.40.1
+# Force reinstall OpenAI 최신 버전 in venv
+RUN /app/.venv/bin/pip install --upgrade --force-reinstall openai==1.40.1
 
-# Copy project files
+# Copy project
 COPY . .
+
+# Uvicorn uses python from venv
+ENV PATH="/app/.venv/bin:$PATH"
 
 EXPOSE 8000
 
