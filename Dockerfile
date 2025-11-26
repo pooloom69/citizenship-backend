@@ -1,30 +1,21 @@
-# Python base
 FROM python:3.11-slim
 
-# Set working directory
 WORKDIR /app
 
-# Install system dependencies
-RUN apt-get update && apt-get install -y \
-    build-essential \
-    && rm -rf /var/lib/apt/lists/*
+# Clean pip cache and uninstall everything
+RUN pip install --upgrade pip
+RUN pip list | awk 'NR>2 {print $1}' | xargs pip uninstall -y || true
 
-# Copy requirements
 COPY requirements.txt .
 
-# Install python packages
+# Install only what we want
 RUN pip install --no-cache-dir -r requirements.txt
 
-# 🚨 강제 삭제 & 재설치 — 이것이 가장 중요함
-RUN pip uninstall -y openai || true
+# Force reinstall OpenAI
 RUN pip install --upgrade --force-reinstall openai==1.40.1
 
-# Copy project
 COPY . .
 
-# Expose port
 EXPOSE 8000
 
-# Start command
-CMD exec uvicorn app.main:app --host 0.0.0.0 --port $PORT
-#CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
