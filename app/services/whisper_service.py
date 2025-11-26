@@ -4,20 +4,19 @@ from app.config import settings
 from fastapi import UploadFile
 from typing import Optional
 import os
+import httpx
 
-# 모든 proxy 제거
-os.environ.pop("HTTP_PROXY", None)
-os.environ.pop("HTTPS_PROXY", None)
-os.environ.pop("http_proxy", None)
-os.environ.pop("https_proxy", None)
+# 🚨 [수정] 프록시 설정이 없는 깨끗한 HTTP 클라이언트 생성
+# 이렇게 하면 Railway나 Render의 환경 변수(HTTP_PROXY)를 무시합니다.
+custom_http_client = httpx.Client(proxies=None)
 
-
-# 🚨 [수정] http_client=None 추가. 이것이 proxies 충돌을 막는 핵심입니다.
+# OpenAI 클라이언트에 커스텀 HTTP 클라이언트 주입
 client = OpenAI(
     api_key=os.getenv("OPENAI_API_KEY"),
-    http_client=None 
-) 
-# Note: Render/Railway는 OPENAI_API_KEY 환경 변수를 자동으로 노출합니다.
+    http_client=custom_http_client # ✅ [수정] 직접 만든 클라이언트 주입
+)
+
+
 
 async def transcribe_audio(audio_file: UploadFile) -> str:
     """
