@@ -9,5 +9,7 @@ python-multipart==0.0.9
 aiofiles==23.2.1
 setuptools
 wheel
-requests==2.31.0
+
+
+
 

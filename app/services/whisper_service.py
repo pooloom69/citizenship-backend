@@ -5,15 +5,7 @@ from fastapi import UploadFile
 from typing import Optional
 import os
 
-# 🔥 Proxy 환경변수 완전 제거
-for key in ["HTTP_PROXY", "HTTPS_PROXY", "http_proxy", "https_proxy"]:
-    os.environ.pop(key, None)
-
-# 🔥 OpenAI client – 기본 transport 사용 (httpx 비활성화됨)
-client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY"),
-    http_client=None   # ⭐ 핵심: 커스텀 transport 금지. 기본 transport 사용
-)
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 async def transcribe_audio(audio_file: UploadFile) -> str:
     """

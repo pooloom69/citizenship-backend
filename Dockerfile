@@ -16,19 +16,19 @@ RUN /app/.venv/bin/pip install --upgrade pip
 # Copy requirements
 COPY requirements.txt .
 
-RUN /app/.venv/bin/pip uninstall -y httpx || true
-
+# 🧨 httpx + httpcore 완전 제거 (httpx가 있으면 절대 해결 안 됨)
+RUN /app/.venv/bin/pip uninstall -y httpx httpcore || true
 
 # Install dependencies INSIDE venv
 RUN /app/.venv/bin/pip install --no-cache-dir -r requirements.txt
 
-# Force reinstall OpenAI 최신 버전
+# Force reinstall OpenAI latest
 RUN /app/.venv/bin/pip install --upgrade --force-reinstall openai==1.47.0
 
 # Copy project
 COPY . .
 
-# ⛔ Proxy auto detect 문제 방지 (매우 중요)
+# Disable proxy auto-detection
 ENV HTTP_PROXY=""
 ENV HTTPS_PROXY=""
 ENV http_proxy=""
