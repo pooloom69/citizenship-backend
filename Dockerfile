@@ -1,5 +1,5 @@
 # Python base
-FROM python:3.12-slim
+FROM python:3.11-slim
 
 # Set working directory
 WORKDIR /app
@@ -26,4 +26,5 @@ COPY . .
 EXPOSE 8000
 
 # Start command
-CMD ["sh", "-c", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}"]
+CMD exec uvicorn app.main:app --host 0.0.0.0 --port $PORT
+#CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
