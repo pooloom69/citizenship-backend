@@ -5,19 +5,24 @@ import random
 
 router = APIRouter(prefix="/questions", tags=["questions"])
 
-# ko_app.json 위치 지정 (경로가 맞는지 확인하세요)
-DATA_FILE = Path(__file__).parent.parent / "data" / "ko_app.json"
+# 🚨 중요: 방금 만든 5개 국어 JSON 데이터를 이 파일명으로 저장해야 합니다.
+# 경로: backend/data/questions_all.json (폴더 구조에 맞게 수정하세요)
+DATA_FILE = Path(__file__).parent.parent / "data" / "questions_all.json"
 
-# JSON 파일 읽기
+# JSON 파일 읽기 (앱 시작 시 한 번만 로드)
 if not DATA_FILE.exists():
-    # 파일이 없을 경우를 대비해 빈 리스트 또는 에러 처리
-    print(f"❗ JSON file not found: {DATA_FILE}")
+    print(f"❗ 오류: JSON 파일을 찾을 수 없습니다. 경로를 확인하세요: {DATA_FILE}")
     QUESTIONS = []
 else:
-    with open(DATA_FILE, "r", encoding="utf-8") as f:
-        QUESTIONS = json.load(f)
+    try:
+        with open(DATA_FILE, "r", encoding="utf-8") as f:
+            QUESTIONS = json.load(f)
+        print(f"✅ {len(QUESTIONS)}개의 다국어 문제를 로드했습니다.")
+    except json.JSONDecodeError:
+        print("❗ 오류: JSON 파일 형식이 잘못되었습니다.")
+        QUESTIONS = []
 
-# ✅ [추가] 랜덤 테스트 문제 12개 뽑기 엔드포인트
+# 1. 랜덤 테스트 문제 12개 뽑기 (테스트 모드용)
 @router.get("/test")
 def get_random_test():
     if not QUESTIONS:
@@ -30,18 +35,25 @@ def get_random_test():
     random_questions = random.sample(QUESTIONS, num_questions)
     return random_questions
 
-# 전체 질문 리스트
+# 2. 전체 질문 리스트 (문제 은행용)
 @router.get("/")
 def get_all_questions():
+    if not QUESTIONS:
+        raise HTTPException(status_code=404, detail="No data found")
     return QUESTIONS
 
-# 개별 질문
+# 3. 개별 질문 가져오기 (연습 모드용)
+# questions.py 파일의 get_question 함수 수정
+
 @router.get("/{id}")
 def get_question(id: int):
-    # ID가 1부터 시작한다고 가정하고 리스트 인덱스로 접근
-    # (ID가 순차적이지 않을 수 있다면 filter를 쓰는 게 더 안전합니다)
     question = next((q for q in QUESTIONS if q["id"] == id), None)
     
     if not question:
-        raise HTTPException(status_code=404, detail="Question not found")
+        raise HTTPException(status_code=404, detail=f"Question {id} not found")
+    
+    # 🚨 [디버깅 추가] 앱에서 요청할 때마다 서버 터미널에 가지고 있는 데이터 키(Key)를 출력함
+    print(f"🆔 ID {id} 요청 들어옴.")
+    print(f"📦 가지고 있는 언어 데이터: {list(question.keys())}") 
+    
     return question
