@@ -2,6 +2,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.routers import questions, stt, tts, evaluate
+from app.routers import questions, civics
+from app.routers import definitions
 
 app = FastAPI(title="Citizenship Coach API")
 
@@ -19,7 +21,8 @@ app.include_router(questions.router)
 app.include_router(stt.router)
 app.include_router(tts.router)
 app.include_router(evaluate.router)
-
+app.include_router(civics.router)
+app.include_router(definitions.router)
 
 @app.get("/")
 def root():
