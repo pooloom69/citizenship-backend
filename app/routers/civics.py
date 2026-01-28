@@ -4,100 +4,78 @@ import pgeocode
 
 router = APIRouter(prefix="/civics", tags=["civics"])
 
-# 🔑 Open States API 키 (사용자님 키 입력)
-OPEN_STATES_API_KEY = "a4fd6f4b-4384-47f5-aeb9-9be500dd4cbf"  # 예시 키가 있다면 교체하세요
+# 🔑 Open States API 키
+OPEN_STATES_API_KEY = "a4fd6f4b-4384-47f5-aeb9-9be500dd4cbf" 
 
-# 🏛️ 주지사 명단 (State Code -> Governor Name)
-# 2025~2026년 기준 주요 주지사 명단입니다. 필요한 주가 있으면 추가하면 됩니다.
-# 🏛️ 미국 50개 주 주지사 명단 (2025-2026 임기 기준)
-US_GOVERNORS = {
-    # A
-    "AL": "Kay Ivey",           # Alabama
-    "AK": "Mike Dunleavy",      # Alaska
-    "AZ": "Katie Hobbs",        # Arizona
-    "AR": "Sarah Huckabee Sanders", # Arkansas
-    # C
-    "CA": "Gavin Newsom",       # California
-    "CO": "Jared Polis",        # Colorado
-    "CT": "Ned Lamont",         # Connecticut
-    # D
-    "DE": "Matt Meyer",         # Delaware (New! 2025 취임)
-    # F
-    "FL": "Ron DeSantis",       # Florida
-    # G
-    "GA": "Brian Kemp",         # Georgia
-    # H
-    "HI": "Josh Green",         # Hawaii
-    # I
-    "ID": "Brad Little",        # Idaho
-    "IL": "JB Pritzker",        # Illinois
-    "IN": "Mike Braun",         # Indiana (New! 2025 취임)
-    "IA": "Kim Reynolds",       # Iowa
-    # K
-    "KS": "Laura Kelly",        # Kansas
-    "KY": "Andy Beshear",       # Kentucky
-    # L
-    "LA": "Jeff Landry",        # Louisiana
-    # M
-    "ME": "Janet Mills",        # Maine
-    "MD": "Wes Moore",          # Maryland
-    "MA": "Maura Healey",       # Massachusetts
-    "MI": "Gretchen Whitmer",   # Michigan
-    "MN": "Tim Walz",           # Minnesota
-    "MS": "Tate Reeves",        # Mississippi
-    "MO": "Mike Kehoe",         # Missouri (New! 2025 취임)
-    "MT": "Greg Gianforte",     # Montana
-    # N
-    "NE": "Jim Pillen",         # Nebraska
-    "NV": "Joe Lombardo",       # Nevada
-    "NH": "Kelly Ayotte",       # New Hampshire (New! 2025 취임)
-    "NJ": "Phil Murphy",        # New Jersey (⚠️ 2026년 1월 임기 종료 예정, 확인 필요)
-    "NM": "Michelle Lujan Grisham", # New Mexico
-    "NY": "Kathy Hochul",       # New York
-    "NC": "Josh Stein",         # North Carolina (New! 2025 취임)
-    "ND": "Kelly Armstrong",    # North Dakota (New! 2025 취임)
-    # O
-    "OH": "Mike DeWine",        # Ohio
-    "OK": "Kevin Stitt",        # Oklahoma
-    "OR": "Tina Kotek",         # Oregon
-    # P
-    "PA": "Josh Shapiro",       # Pennsylvania
-    # R
-    "RI": "Dan McKee",          # Rhode Island
-    # S
-    "SC": "Henry McMaster",     # South Carolina
-    "SD": "Kristi Noem",        # South Dakota
-    # T
-    "TN": "Bill Lee",           # Tennessee
-    "TX": "Greg Abbott",        # Texas
-    # U
-    "UT": "Spencer Cox",        # Utah
-    # V
-    "VT": "Phil Scott",         # Vermont
-    "VA": "Abigail Spanberger",     # Virginia (⚠️ 2026년 1월 임기 종료 예정, 확인 필요)
-    # W
-    "WA": "Bob Ferguson",       # Washington (New! 2025 취임)
-    "WV": "Patrick Morrisey",   # West Virginia (New! 2025 취임)
-    "WI": "Tony Evers",         # Wisconsin
-    "WY": "Mark Gordon",        # Wyoming
+# 📢 30번 문제: 하원의장 (전국 공통, 2026년 기준)
+SPEAKER_OF_THE_HOUSE = "Mike Johnson"
+
+# 🏛️ 62번 문제: 주 수도 (State Capital) 데이터
+US_CAPITALS = {
+    "AL": "Montgomery", "AK": "Juneau", "AZ": "Phoenix", "AR": "Little Rock",
+    "CA": "Sacramento", "CO": "Denver", "CT": "Hartford", "DE": "Dover",
+    "FL": "Tallahassee", "GA": "Atlanta", "HI": "Honolulu", "ID": "Boise",
+    "IL": "Springfield", "IN": "Indianapolis", "IA": "Des Moines", "KS": "Topeka",
+    "KY": "Frankfort", "LA": "Baton Rouge", "ME": "Augusta", "MD": "Annapolis",
+    "MA": "Boston", "MI": "Lansing", "MN": "Saint Paul", "MS": "Jackson",
+    "MO": "Jefferson City", "MT": "Helena", "NE": "Lincoln", "NV": "Carson City",
+    "NH": "Concord", "NJ": "Trenton", "NM": "Santa Fe", "NY": "Albany",
+    "NC": "Raleigh", "ND": "Bismarck", "OH": "Columbus", "OK": "Oklahoma City",
+    "OR": "Salem", "PA": "Harrisburg", "RI": "Providence", "SC": "Columbia",
+    "SD": "Pierre", "TN": "Nashville", "TX": "Austin", "UT": "Salt Lake City",
+    "VT": "Montpelier", "VA": "Richmond", "WA": "Olympia", "WV": "Charleston",
+    "WI": "Madison", "WY": "Cheyenne"
 }
 
-@router.get("/representatives/{zip_code}")
-def get_representatives(zip_code: str):
+# 🏛️ 61번 문제: 주지사 명단 (2025-2026 임기 기준)
+US_GOVERNORS = {
+    "AL": "Kay Ivey", "AK": "Mike Dunleavy", "AZ": "Katie Hobbs", "AR": "Sarah Huckabee Sanders",
+    "CA": "Gavin Newsom", "CO": "Jared Polis", "CT": "Ned Lamont", "DE": "Matt Meyer",
+    "FL": "Ron DeSantis", "GA": "Brian Kemp", "HI": "Josh Green", "ID": "Brad Little",
+    "IL": "JB Pritzker", "IN": "Mike Braun", "IA": "Kim Reynolds", "KS": "Laura Kelly",
+    "KY": "Andy Beshear", "LA": "Jeff Landry", "ME": "Janet Mills", "MD": "Wes Moore",
+    "MA": "Maura Healey", "MI": "Gretchen Whitmer", "MN": "Tim Walz", "MS": "Tate Reeves",
+    "MO": "Mike Kehoe", "MT": "Greg Gianforte", "NE": "Jim Pillen", "NV": "Joe Lombardo",
+    "NH": "Kelly Ayotte", "NJ": "Phil Murphy", "NM": "Michelle Lujan Grisham", "NY": "Kathy Hochul",
+    "NC": "Josh Stein", "ND": "Kelly Armstrong", "OH": "Mike DeWine", "OK": "Kevin Stitt",
+    "OR": "Tina Kotek", "PA": "Josh Shapiro", "RI": "Dan McKee", "SC": "Henry McMaster",
+    "SD": "Kristi Noem", "TN": "Bill Lee", "TX": "Greg Abbott", "UT": "Spencer Cox",
+    "VT": "Phil Scott", "VA": "Abigail Spanberger", "WA": "Bob Ferguson", "WV": "Patrick Morrisey",
+    "WI": "Tony Evers", "WY": "Mark Gordon"
+}
+
+# 주 이름 매핑 (State Code -> Full Name)
+US_STATES = {
+    "AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "CA": "California",
+    "CO": "Colorado", "CT": "Connecticut", "DE": "Delaware", "FL": "Florida", "GA": "Georgia",
+    "HI": "Hawaii", "ID": "Idaho", "IL": "Illinois", "IN": "Indiana", "IA": "Iowa",
+    "KS": "Kansas", "KY": "Kentucky", "LA": "Louisiana", "ME": "Maine", "MD": "Maryland",
+    "MA": "Massachusetts", "MI": "Michigan", "MN": "Minnesota", "MS": "Mississippi", "MO": "Missouri",
+    "MT": "Montana", "NE": "Nebraska", "NV": "Nevada", "NH": "New Hampshire", "NJ": "New Jersey",
+    "NM": "New Mexico", "NY": "New York", "NC": "North Carolina", "ND": "North Dakota", "OH": "Ohio",
+    "OK": "Oklahoma", "OR": "Oregon", "PA": "Pennsylvania", "RI": "Rhode Island", "SC": "South Carolina",
+    "SD": "South Dakota", "TN": "Tennessee", "TX": "Texas", "UT": "Utah", "VT": "Vermont",
+    "VA": "Virginia", "WA": "Washington", "WV": "West Virginia", "WI": "Wisconsin", "WY": "Wyoming"
+}
+
+@router.get("/{zip_code}")
+def get_civics_data(zip_code: str):
+    """
+    ZIP 코드를 받아서 23번(상원), 29번(하원), 30번(하원의장), 61번(주지사), 62번(수도) 정보를 반환
+    """
     try:
-        # 1. ZIP Code -> 위도/경도/주(State) 변환
+        # 1. ZIP Code -> 위도/경도 변환
         nomi = pgeocode.Nominatim('us')
         location = nomi.query_postal_code(zip_code)
         
-        # 유효하지 않은 우편번호 체크 (NaN 체크)
-        if location.latitude != location.latitude: 
+        if location.latitude != location.latitude: # NaN check
             return {"error": "Invalid ZIP Code"}
 
         lat = location.latitude
         lng = location.longitude
         state_code = location.state_code  # 예: 'CA'
 
-        # 2. Open States API 호출 (상원의원 찾기)
+        # 2. Open States API 호출 (연방 의원 찾기)
         url = "https://v3.openstates.org/people.geo"
         params = {
             "lat": lat,
@@ -109,33 +87,38 @@ def get_representatives(zip_code: str):
         data = response.json()
         
         results = {
-            "senators": [],
-            "governor": ""
+            "state_name": US_STATES.get(state_code, state_code),
+            "senators": [],       # 23번
+            "representative": "", # 29번
+            "speaker": SPEAKER_OF_THE_HOUSE, # 30번
+            "governor": "",       # 61번
+            "capital": ""         # 62번
         }
 
-        # 3. 상원의원(Senator) 추출 로직
-        # 보내주신 JSON 분석 결과:
-        # jurisdiction.name이 "United States" 이고, 
-        # current_role.org_classification이 "upper" 인 사람이 진짜 'US Senator'입니다.
+        # 3. API 결과 파싱 (상원/하원 구분)
         if "results" in data:
             for person in data["results"]:
                 role = person.get("current_role", {})
                 jurisdiction = person.get("jurisdiction", {})
                 
-                # 조건: 미국 연방(United States) 소속 + 상원(upper)
-                if jurisdiction.get("name") == "United States" and role.get("org_classification") == "upper":
-                    results["senators"].append(person["name"])
+                # 조건: 미국 연방(United States) 소속이어야 함
+                if jurisdiction.get("name") == "United States":
+                    # 상원 (Upper) -> US Senator (23번)
+                    if role.get("org_classification") == "upper":
+                        results["senators"].append(person["name"])
+                    
+                    # 하원 (Lower) -> US Representative (29번)
+                    # *참고: 우편번호 중심 좌표라 정확도가 완벽하진 않지만 가장 가까운 의원을 가져옴
+                    elif role.get("org_classification") == "lower":
+                        results["representative"] = person["name"]
 
-        # 4. 주지사(Governor) 매칭 로직
-        # 위에서 구한 state_code('CA')를 이용해 명단에서 찾습니다.
-        if state_code in US_GOVERNORS:
-            results["governor"] = US_GOVERNORS[state_code]
-        else:
-            results["governor"] = "Unknown Governor"
+        # 4. 주지사 & 수도 매칭 (61번, 62번)
+        results["governor"] = US_GOVERNORS.get(state_code, "Unknown Governor")
+        results["capital"] = US_CAPITALS.get(state_code, "Unknown Capital")
 
-        print(f"✅ ZIP: {zip_code} -> {state_code}, Senators: {results['senators']}, Gov: {results['governor']}")
+        print(f"✅ ZIP: {zip_code} ({state_code}) 데이터 로드 완료")
         return results
 
     except Exception as e:
-        print(f"Server Error: {e}")
+        print(f"🔥 Server Error: {e}")
         raise HTTPException(status_code=500, detail=str(e))
