@@ -1,11 +1,12 @@
 from fastapi import APIRouter, HTTPException
 import requests
 import pgeocode
+import os
+import math
 
 router = APIRouter(prefix="/civics", tags=["civics"])
 
-# 🔑 Open States API 키
-OPEN_STATES_API_KEY = "a4fd6f4b-4384-47f5-aeb9-9be500dd4cbf" 
+OPEN_STATES_API_KEY = os.getenv("OPEN_STATES_API_KEY", "")
 
 # 📢 30번 문제: 하원의장 (전국 공통, 2026년 기준)
 SPEAKER_OF_THE_HOUSE = "Mike Johnson"
@@ -68,7 +69,7 @@ def get_civics_data(zip_code: str):
         nomi = pgeocode.Nominatim('us')
         location = nomi.query_postal_code(zip_code)
         
-        if location.latitude != location.latitude: # NaN check
+        if location.latitude is None or math.isnan(location.latitude):
             return {"error": "Invalid ZIP Code"}
 
         lat = location.latitude
@@ -84,6 +85,7 @@ def get_civics_data(zip_code: str):
         }
         
         response = requests.get(url, params=params)
+        response.raise_for_status()
         data = response.json()
         
         results = {

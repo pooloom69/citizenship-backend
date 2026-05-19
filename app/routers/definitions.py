@@ -8,8 +8,13 @@ router = APIRouter(prefix="/definitions", tags=["definitions"])
 DATA_FILE = os.path.join(os.path.dirname(__file__), "../data/definitions.json")
 
 def load_definitions():
-    with open(DATA_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
+    try:
+        with open(DATA_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        raise HTTPException(status_code=500, detail="Definitions data file not found")
+    except json.JSONDecodeError:
+        raise HTTPException(status_code=500, detail="Definitions data file is malformed")
 
 @router.get("/")
 def get_all_definitions():

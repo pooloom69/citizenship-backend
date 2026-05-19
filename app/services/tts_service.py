@@ -7,6 +7,9 @@ import requests
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 def generate_tts(text: str) -> str:
+    if not OPENAI_API_KEY:
+        print("TTS Error: OPENAI_API_KEY is not set")
+        return ""
     try:
         url = "https://api.openai.com/v1/audio/speech"
 

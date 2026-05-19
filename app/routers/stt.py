@@ -41,13 +41,30 @@ async def stt(file: UploadFile = File(...)):
         logger.info("🚀 OpenAI Whisper로 전송 중...")
         with open(temp_filename, "rb") as audio_file:
             transcript = client.audio.transcriptions.create(
-                model="whisper-1", 
-                file=audio_file
+                model="whisper-1",
+                file=audio_file,
+                response_format="verbose_json",
             )
-        
-        result_text = transcript.text
+
+        # 무음 감지: no_speech_prob이 높으면 빈 텍스트 반환
+        no_speech_prob = getattr(transcript, "no_speech_prob", 0) or 0
+        if no_speech_prob > 0.5:
+            logger.info(f"🔇 무음 감지 (no_speech_prob={no_speech_prob:.2f}), 빈 텍스트 반환")
+            return {"text": ""}
+
+        result_text = transcript.text.strip()
+
+        # Whisper 환각 문구 필터
+        HALLUCINATIONS = {
+            "thank you for watching", "thanks for watching", "thank you.",
+            "thanks for watching!", "thank you for watching.", "you",
+            ".", "...", " ", "bye", "bye.", "okay.", "okay",
+        }
+        if result_text.lower() in HALLUCINATIONS:
+            logger.info(f"🚫 환각 문구 감지: '{result_text}', 빈 텍스트 반환")
+            return {"text": ""}
+
         logger.info(f"✅ [성공] 결과: {result_text}")
-        
         return {"text": result_text}
 
     except Exception as e:
